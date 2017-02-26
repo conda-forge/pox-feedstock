@@ -7,9 +7,21 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: parallel graph management and execution in heterogeneous computing
+Summary: utilities for filesystem exploration and automated builds
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pox-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pox-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pox-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pox-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pox-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pox-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pox/badges/version.svg)](https://anaconda.org/conda-forge/pox)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pox/badges/downloads.svg)](https://anaconda.org/conda-forge/pox)
 
 Installing pox
 ==============
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pox` available on your platform w
 ```
 conda search pox --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pox-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pox-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pox-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pox-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pox-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pox-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pox/badges/version.svg)](https://anaconda.org/conda-forge/pox)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pox/badges/downloads.svg)](https://anaconda.org/conda-forge/pox)
 
 
 Updating pox-feedstock
