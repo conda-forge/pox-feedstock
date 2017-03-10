@@ -1,13 +1,15 @@
-{% set version = "0.2.2" %}
+{% set name = "pox" %}
+{% set version = "0.2.3" %}
+
 
 package:
-  name: pox
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: pox-0.2.2.tgz
-  url: https://files.pythonhosted.org/packages/6d/ae/40f02d47cdb88363ec7eb3d0851805053dbee95a2710532f7e4955babc3b/pox-0.2.2.tgz
-  md5: 4c50ed714b8661550639dbac9b3c18f4
+  fn: {{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  md5: fcdfd9a9ab0f72367258b675554f6a83
 
 build:
   number: 0
