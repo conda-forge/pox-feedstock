@@ -1,5 +1,5 @@
 {% set name = "pox" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2b53fbdf02596240483dc2cb94f94cc21252ad1b1858c7b1c151afeec9022cc8
+  sha256: 47cb160322922c54590be447f08aa43f04875a3e53eee89963a757ebb5eb1376
 
 build:
   noarch: python
