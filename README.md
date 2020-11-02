@@ -5,11 +5,9 @@ Home: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pox-feedstock/blob/master/LICENSE.txt)
 
 Summary: utilities for filesystem exploration and automated builds
-
-
 
 Current build status
 ====================
