@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/uqfoundation/pox
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: utilities for filesystem exploration and automated builds
 
