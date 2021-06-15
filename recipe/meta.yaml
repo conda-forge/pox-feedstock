@@ -12,21 +12,22 @@ source:
 build:
   noarch: python
   number: 0
-  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
+  script: "{{ PYTHON }} -m pip install . -vv"
+
 
 requirements:
   host:
     - pip
-    - python
+    - python =2.7|>=3.6
   run:
-    - python
+    - python =2.7|>=3.6
 
 test:
   imports:
     - pox
 
 about:
-  home: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html
+  home: https://github.com/uqfoundation/pox
   license: BSD 3-Clause
   license_file: LICENSE
   summary: utilities for filesystem exploration and automated builds
@@ -34,3 +35,4 @@ about:
 extra:
   recipe-maintainers:
     - jschueller
+    - synapticarbors
