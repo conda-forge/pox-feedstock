@@ -1,5 +1,5 @@
 {% set name = "pox" %}
-{% set version = "0.2.9" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,30 +7,32 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: f08b5453edf94fd6fdb28e043658cdd6151d5fd8384066a24fad8d4bd7e637c0
+  sha256: cb968350b186466bb4905a21084587ec3aa6fd7aa0ef55d416ee0d523e2abe31
 
 build:
   noarch: python
   number: 0
-  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
+  script: "{{ PYTHON }} -m pip install . -vv"
+
 
 requirements:
   host:
     - pip
-    - python
+    - python =2.7|>=3.6
   run:
-    - python
+    - python =2.7|>=3.6
 
 test:
   imports:
     - pox
 
 about:
-  home: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html
-  license: BSD 3-Clause
+  home: https://github.com/uqfoundation/pox
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: utilities for filesystem exploration and automated builds
 
 extra:
   recipe-maintainers:
     - jschueller
+    - synapticarbors
