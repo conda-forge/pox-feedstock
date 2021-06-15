@@ -1,9 +1,9 @@
 About pox
 =========
 
-Home: http://trac.mystic.cacr.caltech.edu/project/pathos/wiki.html
+Home: https://github.com/uqfoundation/pox
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pox-feedstock/blob/master/LICENSE.txt)
 
@@ -116,4 +116,5 @@ Feedstock Maintainers
 =====================
 
 * [@jschueller](https://github.com/jschueller/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
