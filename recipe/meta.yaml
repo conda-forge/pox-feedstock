@@ -1,18 +1,18 @@
 {% set name = "pox" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: cb968350b186466bb4905a21084587ec3aa6fd7aa0ef55d416ee0d523e2abe31
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cbb0c0acd650c0ffb620999da611e93aae5105c46a084c4ceaf2f704ed708c1e
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 
 requirements:
