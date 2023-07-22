@@ -1,11 +1,11 @@
-About pox
-=========
+About pox-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pox-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/uqfoundation/pox
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pox-feedstock/blob/main/LICENSE.txt)
 
 Summary: utilities for filesystem exploration and automated builds
 
