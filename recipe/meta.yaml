@@ -14,10 +14,10 @@ build:
   number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
-
 requirements:
   host:
     - pip
+    - setuptools >=42
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
@@ -25,8 +25,11 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - pox
+  commands:
+    - pip check
 
 about:
   home: https://github.com/uqfoundation/pox
